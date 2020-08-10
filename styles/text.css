@@ -10,5 +10,15 @@
 .body1 {
     color: white;
     font-size: 14px;
-    font-style: italic;
+    text-align: center;
+}
+
+.body4 {
+    color: white;
+    font-size: 14px;
+    margin: 5px 10px;
+}
+
+.bold {
+    font-weight: bold;
 }

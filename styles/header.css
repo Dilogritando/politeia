@@ -8,21 +8,20 @@ header {
 }
 
 #LogoCriterio {
-    width: 70%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .products {
-    margin-top: 20px;
-    padding-top: 20px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    height: 110px;
+    height: 130px;
     background-color: white;
     align-items: center;
     justify-content: center;
+    border: solid #212121 20px;
 }
 
 .products img {
@@ -30,17 +29,29 @@ header {
 }
 
 .aboutContainer {
-    padding: 25px;
-    margin: 10px;
+    background-color: #212121;
+    height: fit-content;
+    padding: 5px 90px;
 }
 
-@media only screen and (max-width: 890px) {
+@media only screen and (max-width: 830px) {
     .products {
       height: 220px;
     }
   }
+
 @media only screen and (max-width: 515px) {
     .products {
       height: 330px;
+    }
+
+    .aboutContainer {
+      padding: 5px 40px;
+    }
+  }
+
+@media only screen and (max-width: 340px) {
+    .products {
+      height: 440px;
     }
   }

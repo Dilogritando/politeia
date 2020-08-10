@@ -14,7 +14,7 @@ export default function Header () {
                 <img src={LogoCriterio} alt="Logo Grupo Editorial Criterio" id="LogoCriterio" />
             </div>
             <div className="products">
-                <img src={LogoNW} alt="Logo Newsweek" id="LogoNW" height="30" />
+                <img src={LogoNW} alt="Logo Newsweek" id="LogoNW" height="25" />
                 <img src={LogoPolitico} alt="Logo Animal Político" id="LogoPolitico" height="40"/>
                 <img src={LogoGourmet} alt="Logo Animal Gourmet" id="LogoGourmet" height="50"/>
                 <img src={LogoAnimalMX} alt="Logo Animal MX" id="LogoAnimalMX" height="60"/>
@@ -24,7 +24,6 @@ export default function Header () {
             <div className="aboutContainer">
                 <Text type="body1">
                 Editorial Criterio defiende la transparencia, el acceso a la información, la rendición de cuentas y combate a la corrupción.
-                <br/>
                 <br/>
                 Con publicaciones impresas y digitales, se observan a los actores, procesos políticos, fomentando la participación ciudadana y una mejor toma de decisiones.
                 </Text>
