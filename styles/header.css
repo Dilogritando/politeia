@@ -1,0 +1,46 @@
+header {
+    background-color: #212121;
+}
+
+.mainLogo {
+    display: flex;
+    justify-content: center;
+}
+
+#LogoCriterio {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products {
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 110px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.products img {
+    margin: 5px 10px;
+}
+
+.aboutContainer {
+    padding: 25px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 890px) {
+    .products {
+      height: 220px;
+    }
+  }
+@media only screen and (max-width: 515px) {
+    .products {
+      height: 330px;
+    }
+  }
