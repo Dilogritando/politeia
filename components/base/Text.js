@@ -19,7 +19,13 @@ export default function Text({ children, type }) {
                 {children}
             </p>
         )
-    } else if (type==='body4') {
+    } else if (type==='body2') {
+        return (
+            <p className="body2">
+                {children}
+            </p>
+        )
+    }else if (type==='body4') {
         return (
             <p className="body4">
                 {children}

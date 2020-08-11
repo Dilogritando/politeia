@@ -5,6 +5,7 @@ header {
 .mainLogo {
     display: flex;
     justify-content: center;
+    border: solid #212121 20px;
 }
 
 #LogoCriterio {

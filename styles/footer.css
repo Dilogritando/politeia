@@ -142,5 +142,6 @@ footer {
 
     #placeIcon, #EditorialIcon, #CommercialIcon{
       width: 50px;
+      fill: red;
     }
   }

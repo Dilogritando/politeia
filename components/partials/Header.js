@@ -4,7 +4,7 @@ import LogoPolitico from '../../public/brands-logos/APlogo.png'
 import LogoGourmet from '../../public/brands-logos/animal-gourmet-logo.png'
 import LogoAnimalMX from '../../public/brands-logos/logo_animalmx.png'
 import LogoHidalgo from '../../public/brands-logos/Logo-hidalgo.png'
-import LogoGRS from '../../public/brands-logos/Logo-GRS.jpeg'
+import LogoGRS from '../../public/brands-logos/Logo-GRS.jpg'
 import Text from '../../components/base/Text'
 
 export default function Header () {
@@ -23,9 +23,7 @@ export default function Header () {
             </div>
             <div className="aboutContainer">
                 <Text type="body1">
-                Editorial Criterio defiende la transparencia, el acceso a la información, la rendición de cuentas y combate a la corrupción.
-                <br/>
-                Con publicaciones impresas y digitales, se observan a los actores, procesos políticos, fomentando la participación ciudadana y una mejor toma de decisiones.
+                Observamos a los actores y procesos políticos, fomentando la participación ciudadana y una mejor toma de decisiones.
                 </Text>
             </div>
         </header>

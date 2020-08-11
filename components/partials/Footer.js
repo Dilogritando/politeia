@@ -7,6 +7,9 @@ import CommercialIcon from '../../public/icons/nse.png'
 export default function Footer () {
     return (
         <footer>
+            <Text type="body1">
+            Apoye medios de comunicación que en sus publicaciones impresas y redes digitales defienden la transparencia, el acceso a la información, la rendición de cuentas y combate a la corrupción.
+            </Text>
             <div className="logofooter">
             <img src={LogoCriterio} alt="Logo Grupo Editorial Criterio" id="LogoCriterioFooter"/>
             </div>
