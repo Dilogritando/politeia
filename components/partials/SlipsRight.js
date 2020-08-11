@@ -6,30 +6,26 @@ import SlipButton from '../base/SlipButton'
 
 const slipsRightContent = [
     {
+        id: 3,
         logo: PublicitariosIcon,
         alt: 'Ícono de contenidos Publicitarios',
         text: 'Productos Publicitarios',
         height:'30'
     },
     {
+        id: 4,
         logo: ComercialesIcon,
         alt: 'Ícono de contenidos Comerciales',
         text: 'Contenidos Comerciales',
         height:'30'
     },
-    {
-        logo: ContactIcon,
-        alt: 'Ícono de contáctenos',
-        text: 'Contáctenos',
-        height:'30'
-    }
 ]
 
-export default function SlipsRight () {
+export default function SlipsRight ({slipSelected, defaultContents}) {
     return (
-        <div className="slipsRighContainer">
-            {slipsRightContent.map(slip => (
-                <SlipButton data={slip} classButton="slipButtonRight"/>
+        <div className="slipsRightContainer">
+            {slipsRightContent.map(slipR => (
+                <SlipButton buttonSelected={slipSelected} data={slipR} classButton="slipButtonRight" showDefault={defaultContents}/>
             ))}
         </div>
     )

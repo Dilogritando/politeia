@@ -28,7 +28,7 @@ footer {
     height: 50%;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 4px;
 }
 
 .addressIcon {
@@ -138,10 +138,5 @@ footer {
     }
     .editorialIcon, .commercialIcon2, .addressIcon {
         width: 50px;
-    }
-
-    #placeIcon, #EditorialIcon, #CommercialIcon{
-      width: 50px;
-      fill: red;
     }
   }

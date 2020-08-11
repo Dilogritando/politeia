@@ -5,24 +5,10 @@
     justify-content: space-between;
 }
 
-.slipsLeft {
-    display: flex;
-    width: 20%;
-    align-self: start;
-    border: springgreen solid 5px;
+.slipsLeftContainer {
+    margin-top: 100px;
 }
 
-.slipsRight {
-    display: flex;
-    width: 20%;
-    border: turquoise solid 5px;
-    align-self: flex-end;
-}
-
-.mainContent {
-    display: flex;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-    border: solid 5px ;
+.slipsRightContainer {
+    margin-top: 100px;
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+
 .body1 {
     color: white;
     font-size: 20px;
@@ -9,14 +11,25 @@
 
 .header2 {
     font-family: 'Ivy Journal';
-    font-size: 35px;
-    color: darkslategray;
+    font-size: 40px;
+    color: black;
     text-align: center;
+    margin: 25px 0;
+}
+
+.header3 {
+    font-family: 'Ivy Journal';
+    font-size: 20px;
+    color: rgb(68, 80, 80);
+    text-align: center;
+    margin: 0;
 }
 
 .body2 {
-    font-family: 'Ivy Journal';
-    font-style: unset;
+    font-family: 'Eczar', serif;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 200;
     font-size: 14px;
     color: black;
     align-content: center;
@@ -35,6 +48,24 @@
     margin: 5px 10px;
 }
 
+.body5 {
+    font-family: 'Eczar', serif;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    color: black;
+    align-content: right;
+    text-align: justify;
+    padding: 5px 0 0 60px;
+}
+
 .bold {
     font-weight: bold;
+}
+
+@media only screen and (max-width: 930px) {
+    .body2 {
+        padding: 0 6px;
+    }
 }
