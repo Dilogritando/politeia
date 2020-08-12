@@ -7,8 +7,6 @@ import OnlineNW from '../../public/contentImages/NWContents/Display/Display1.jpg
 import OnlineNW2 from '../../public/contentImages/NWContents/Display/Display2.jpg'
 import NewsletterNW from '../../public/contentImages/NWContents/Newsletter/NL1.jpg'
 import AlcancesNW from '../../public/contentImages/NWContents/Alcance/Alcance1.jpg'
-
-
 import PortadaAP from '../../public/portadas/apCover.jpg'
 import AudienciasAP from '../../public/contentImages/AP/AudienciasAP1.jpg'
 import CirculacionAP from '../../public/contentImages/AP/Circulacion.jpg'
@@ -17,7 +15,6 @@ import DigitalAP from '../../public/contentImages/AP/DigitalAP.jpg'
 import ContenidosAP from '../../public/contentImages/AP/Contenidos.jpg'
 import NewsAP from '../../public/contentImages/AP/NewsAP.jpg'
 import AlcancesAP from '../../public/contentImages/AP/AlcancesAP.jpg'
-
 import PortadaAG from '../../public/portadas/agCover.png'
 import AudienciasAG from '../../public/contentImages/AG/Audiencias.jpg'
 import CirculacionAG from '../../public/contentImages/AG/CirculacionAG.jpg'
@@ -25,7 +22,6 @@ import TarifasAG from '../../public/contentImages/AG/TarifasAG.jpg'
 import Tarifas2AG from '../../public/contentImages/AG/Tarifas2AG.jpg'
 import NewsAG from '../../public/contentImages/AG/NewsAG.jpg'
 import AlcancesAG from '../../public/contentImages/AG/AlcancesAG.jpg'
-
 import Publicitarios1 from '../../public/portadas/Publicitarios.jpg'
 import Comerciales1 from '../../public/portadas/Comerciales.jpg'
 import MainDefault from './MainDefault.js'
