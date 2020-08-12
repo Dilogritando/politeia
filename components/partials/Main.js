@@ -28,7 +28,6 @@ import AlcancesAG from '../../public/contentImages/AG/AlcancesAG.jpg'
 
 import Publicitarios1 from '../../public/portadas/Publicitarios.jpg'
 import Comerciales1 from '../../public/portadas/Comerciales.jpg'
-import Placeholder from '../../public/brands-logos/Compressed/tamano/logoCriterio.png'
 import MainDefault from './MainDefault.js'
 import MainComponents from './MainComponents.js'
 import SlipsLeft from './SlipsLeft.js'
@@ -288,7 +287,6 @@ export default function Main () {
         } else {
             finalInfo=infoMedia.additionalContent[optionalContents]
         }
-        console.log(finalInfo)
     }
     return (
         <div className="mainContainer">

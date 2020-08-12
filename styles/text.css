@@ -73,6 +73,10 @@
         line-height: 1em;
         font-size: 14px;
     }
+    .body1 {
+        margin: 10px 15px;
+        font-size: 14px;
+    }
     .body2 {
         padding: 0 6px;
     }

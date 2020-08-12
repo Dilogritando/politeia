@@ -72,7 +72,7 @@
 
     .slipButtonLeft, .slipButtonRight{
         height: 40px;
-        width: 110px;
+        width: 200px;
         font-size: 12px;
         margin: 20px 0;
     }
@@ -83,5 +83,11 @@
         height: 20px;
         margin: 0;
         padding: 2px 2px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .slipButtonLeft, .slipButtonRight{
+        width: 160px;
     }
 }

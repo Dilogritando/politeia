@@ -1,5 +1,3 @@
-import { func } from "prop-types";
-
 export default function Text({ children, type }) {
     if (type==='header1') {
         return (
