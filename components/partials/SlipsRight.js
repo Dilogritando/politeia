@@ -1,6 +1,5 @@
-import ContactIcon from '../../public/icons/newsletter.svg'
-import PublicitariosIcon from '../../public/icons/publicidad-impresos.svg'
-import ComercialesIcon from '../../public/icons/nse.svg'
+import PublicitariosIcon from '../../public/publicidad-impresos.svg'
+import ComercialesIcon from '../../public/nse.svg'
 
 import SlipButton from '../base/SlipButton'
 

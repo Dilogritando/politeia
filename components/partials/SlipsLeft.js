@@ -1,8 +1,8 @@
 import SlipButton from '../base/SlipButton'
 
-import LogoNWSq from '../../public/brands-logos/Logo-NWSquare.png'
-import LogoAPSq from '../../public/brands-logos/Logo-Animal-Politico-Pequeno.jpg'
-import LogoAGSq from '../../public/brands-logos/Logo-Animal-Gourmet-Pequeno.jpg'
+import LogoNWSq from '../../public/Logo-NWSquare.png'
+import LogoAPSq from '../../public/Logo-Animal-Politico-Pequeno.jpg'
+import LogoAGSq from '../../public/Logo-Animal-Gourmet-Pequeno.jpg'
 
 const slipsLeftContent = [
     {

@@ -1,8 +1,8 @@
-import LogoCriterio from '../../public/brands-logos/logoCriterio.png'
+import LogoCriterio from '../../public/logoCriterio.png'
+import PlaceIcon from '../../public/place.svg'
+import EditorialIcon from '../../public/publireportaje.svg'
+import CommercialIcon from '../../public/nse.svg'
 import Text from '../../components/base/Text'
-import PlaceIcon from '../../public/icons/place.svg'
-import EditorialIcon from '../../public/icons/publireportaje.svg'
-import CommercialIcon from '../../public/icons/nse.svg'
 
 export default function Footer () {
     return (

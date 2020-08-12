@@ -1,5 +1,14 @@
 Este fue un proyecto generado en [Next.js](https://nextjs.org/) utilizando [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+El propósito es mostrar una UX/UI renovada para la oferta de productos comerciales del Grupo Editorial Criterio.
+
+### Como guías de estilo y estructura se tuvieron en cuenta:
+- Media Kit de del Grupo Editorial Criterio, año 2019, disponible en:
+https://editorialcriterio.com/media/rs.pdf
+
+- Página web del del Grupo Editorial Criterio:
+https://editorialcriterio.com/
+
 ## Requisitos y condiciones del proyecto
 - Propuesta de UX
 - Mobile friendly
@@ -15,5 +24,9 @@ npm run dev
 # or
 yarn dev
 ```
+
+## Este código fue probado en los siguientes SO
+- Windows *Browser: GoogleChrome*
+- Windows *Browser: Mozilla Firefox*
 
 Abrir [http://localhost:3000](http://localhost:3000) en el navegador para ver el resultado.

@@ -1,10 +1,10 @@
-import LogoCriterio from '../../public/brands-logos/logoCriterio.png'
-import LogoNW from '../../public/brands-logos/Logo-NWEspanol.png'
-import LogoPolitico from '../../public/brands-logos/APlogo.png'
-import LogoGourmet from '../../public/brands-logos/animal-gourmet-logo.png'
-import LogoAnimalMX from '../../public/brands-logos/logo_animalmx.png'
-import LogoHidalgo from '../../public/brands-logos/Logo-hidalgo.png'
-import LogoGRS from '../../public/brands-logos/Logo-GRS.jpg'
+import LogoCriterio from '../../public/logoCriterio.png'
+import LogoNW from '../../public/Logo-NWEspanol.png'
+import LogoPolitico from '../../public/APlogo.png'
+import LogoGourmet from '../../public/animal-gourmet-logo.png'
+import LogoAnimalMX from '../../public/logo_animalmx.png'
+import LogoHidalgo from '../../public/Logo-hidalgo.png'
+import LogoGRS from '../../public/Logo-GRS.jpg'
 import Text from '../../components/base/Text'
 
 export default function Header () {
