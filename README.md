@@ -26,7 +26,7 @@ yarn dev
 ```
 
 ## Este código fue probado en los siguientes SO
-- Windows *Browser: GoogleChrome*
-- Windows *Browser: Mozilla Firefox*
+- Windows 10 *Browser: GoogleChrome Versión 84.0.4147.105 (Build oficial) (64 bits)*
+- Windows 10 *Browser: Mozilla Firefox Versión 79.0 (64-bit)*
 
 Abrir [http://localhost:3000](http://localhost:3000) en el navegador para ver el resultado.
