@@ -25,7 +25,7 @@ export default function SlipsRight ({slipSelected, defaultContents}) {
     return (
         <div className="slipsRightContainer">
             {slipsRightContent.map(slipR => (
-                <SlipButton buttonSelected={slipSelected} data={slipR} classButton="slipButtonRight" showDefault={defaultContents}/>
+                <SlipButton key={slipR.id} buttonSelected={slipSelected} data={slipR} classButton="slipButtonRight" showDefault={defaultContents}  />
             ))}
         </div>
     )

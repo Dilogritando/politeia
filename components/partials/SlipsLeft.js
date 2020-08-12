@@ -30,9 +30,10 @@ const slipsLeftContent = [
 
 export default function SlipsLeft ({slipSelected, defaultContents}) {
     return (
+
         <div className="slipsLeftContainer">
             {slipsLeftContent.map(slipL => (
-                <SlipButton buttonSelected={slipSelected} data={slipL} classButton="slipButtonLeft" showDefault={defaultContents}/>
+                <SlipButton key={slipL.id} buttonSelected={slipSelected} data={slipL} classButton="slipButtonLeft" showDefault={defaultContents}/>
             ))}
         </div>
     )

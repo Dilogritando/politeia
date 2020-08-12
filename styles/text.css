@@ -64,8 +64,19 @@
     font-weight: bold;
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 830px) {
+    .header2 {
+        line-height: 1em;
+        font-size: 20px;
+    }
+    .header3 {
+        line-height: 1em;
+        font-size: 14px;
+    }
     .body2 {
         padding: 0 6px;
+    }
+    .body5 {
+        padding: 20px;
     }
 }

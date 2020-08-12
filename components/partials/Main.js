@@ -36,6 +36,7 @@ import SlipsRight from './SlipsRight.js'
 
 const mediaInfo = [
     {
+        id: 0,
         title: "Newsweek en Español",
         image: PortadasNW,
         content: <>La versión en habla hispana para México y América Latina. <br/>
@@ -83,6 +84,7 @@ const mediaInfo = [
         ]
     },
     {
+        id: 1,
         title: "Animal Político",
         image: PortadaAP,
         content: <>Nuestro objetivo es llevar a nuestros lectores información exclusiva, veraz, que responda a la nueva definición de rapidez
@@ -135,6 +137,7 @@ const mediaInfo = [
         ]
     },
     {
+        id: 2,
         title: "Animal Gourmet",
         image: PortadaAG,
         content: <>Animal Gourmet es periodismo gastronómico<br/><br/>
@@ -184,6 +187,7 @@ const mediaInfo = [
         ]
     },
     {
+        id: 3,
         title: "Productos Publicitarios",
         image: Publicitarios1,
         content: <>En los formatos tradicionales de páginas, dobles páginas, forros y cintillos, ofrecemos a nuestros socios comerciales la
@@ -227,6 +231,7 @@ const mediaInfo = [
         ]
     },
     {
+        id: 4,
         title: "Contenidos Comerciales",
         image: Comerciales1,
         content: <>Con un diseño original y creativo comunicamos a nuestras audiencias de una manera gráfica, el objetivo y estrategia de nuestros socios comerciales. Este formato resulta ideal para comunicar con las audiencias más jóvenes, muchas de las cuales
@@ -285,7 +290,6 @@ export default function Main () {
         }
         console.log(finalInfo)
     }
-
     return (
         <div className="mainContainer">
             <SlipsLeft slipSelected={setContent} defaultContents={setOptionalContents}/>

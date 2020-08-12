@@ -12,8 +12,15 @@
     margin-bottom: 40px;
 }
 
+.slipButtonLeft:hover {
+    border: red solid 4px;
+    cursor: pointer;
+}
+
 .slipButtonLeft img {
     margin: 0 10px;
+    height: 80%;
+    border-radius: 6px;
 }
 
 .slipButtonRight {
@@ -30,6 +37,51 @@
     margin-bottom: 40px;
 }
 
+.slipButtonRight:hover {
+    border: red solid 4px;
+    cursor: pointer;
+}
+
 .slipButtonRight img {
     margin-right: 8px;
+}
+
+@media only screen and (max-width: 830px) {
+    .mainContainer{
+        flex-direction: column;
+        position: relative;
+    }
+
+    .mainDefContainer{
+        width: 100%;
+    }
+
+    .mainContentContainer{
+        width: 100%;
+    }
+
+    .slipsRightContainer{
+        position: absolute;
+        right: 0;
+        top: -70px;
+    }
+    .slipsLeftContainer{
+        z-index: 25;
+        margin: 0;
+    }
+
+    .slipButtonLeft, .slipButtonRight{
+        height: 40px;
+        width: 110px;
+        font-size: 12px;
+        margin: 20px 0;
+    }
+    .slipButtonRight img {
+        height: 20px;
+    }
+    .slipButtonLeft img {
+        height: 20px;
+        margin: 0;
+        padding: 2px 2px;
+    }
 }

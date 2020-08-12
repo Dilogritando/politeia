@@ -42,7 +42,7 @@ export default function ContentsMenu ({showDisplayOptional}) {
     return (
         <div className="menuContainer">
             {menuContent.map(buttonM=>(
-                <MenuButton variant={showDisplayOptional} data={buttonM} classButton="menuButton"/>
+                <MenuButton key={buttonM.id} variant={showDisplayOptional} data={buttonM} classButton="menuButton"/>
             ))}
         </div>
     )

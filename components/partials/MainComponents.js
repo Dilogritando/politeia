@@ -1,8 +1,8 @@
-import {useEffect} from 'react'
 import Text from '../base/Text'
 import ContentsMenu from '../partials/ContentsMenu'
 
 export default function MainComponents ({showInfo, displayOptional}) {
+    console.log(showInfo)
     return (
         <div className="mainContentContainer">
             <ContentsMenu showDisplayOptional={displayOptional}/>
