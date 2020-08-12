@@ -64,6 +64,7 @@
         position: absolute;
         right: 0;
         top: -70px;
+        z-index: 25;
     }
     .slipsLeftContainer{
         z-index: 25;
